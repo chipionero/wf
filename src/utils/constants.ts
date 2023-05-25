@@ -5,6 +5,16 @@ export const EXECUTIONS_KEY = 'BABYAGIUI_EXECUTIONS';
 
 export const MODELS = [
   {
+    id: 'GAD',
+    name: 'Google Ads',
+    icon: 'GAD-logo.svg',
+  },
+  {
+    id: 'SK',
+    name: 'SKALED Consulting',
+    icon: 'skaled-logo.png',
+  },
+  {
     id: 'gpt-4',
     name: 'OpenAI gpt-4',
     message: `GPT_4_WARNING`,
@@ -38,11 +48,18 @@ export const BABYBEEAGI_ITERATIONS = [
 
 export const AGENT = [
   {
-    id: 'babycatagi',
-    name: 'BabyCatAGI',
-    icon: '🐱',
+    id: 'GAD-CM',
+    name: 'Campaign Optimizer',
+    icon: '💸',
     message: '🤖/🔎+📄',
     badge: 'NEW',
+  },
+  {
+    id: 'babycatagi',
+    name: 'Research Agent',
+    icon: '🔍',
+    message: '🤖/🔎+📄',
+  
   },
   {
     id: 'babybeeagi',
